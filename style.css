@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(29, 7, 50);
+    height: 100%;
+}
+
+h3{
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+}
+.content
+{
+    background: url('./img/warren-buffett22.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 95%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 2px #928e8e;
+}
+
+
+.Webs
+{
+    margin: 20px;
+    padding: 30px;
+    color: #fff;
+    text-align: right;
+}
+
+@media screen and (max-width: 600px){
+
+    .content{
+        background: url('./img/mediaQwb.jpg');
+        background-size:cover;
+        font-weight: 200;
+        box-shadow: 0px 5px 5px 4px #fff;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
